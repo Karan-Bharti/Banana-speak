@@ -1,12 +1,13 @@
 var btnTranslate  =  document.querySelector("#btn-translate");
-var txtInput      =  document.querySelector("#txt-input")
+var txtInput      =  document.querySelector("#txt-input");
+var outptDiv=document.querySelector("#output");
 
-console.log(txtInput)
+
+
     
 function clickeventhandler() {
     return function clickeventhandler(){
-    console.log("clicked")
-    console.log("input",txtInput.value)
+    outptDiv.innertext="ahahags"+txtInput.Value
 };
 }
 
