@@ -7,9 +7,9 @@ var outptDiv=document.querySelector("#output");
     
 function clickeventhandler() {
     return function clickeventhandler(){
-    outptDiv.innertext="ahahags"+txtInput.Value
+    outptDiv.innertext="ahahags"+txtInput.Value;
 };
 }
 
-btnTranslate.addEventListener("click" , clickeventhandler())
+btnTranslate.addEventListener("click" , clickeventhandler)
 
